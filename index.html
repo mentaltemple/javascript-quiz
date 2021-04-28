@@ -11,28 +11,29 @@
     />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Document</title>
+    <title>Javascript Quiz</title>
   </head>
   <body>
     <header>
       <h1>JavaScript Quiz</h1>
-      <h2 id="time">Time: 1:00</h2>
+      <h2 id="time">Time: 60 seconds</h2>
     </header>
     <main>
-      <section id="questBox">
-        <h3>
-          Question Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Error, repellat!
-        </h3>
+      <section id="startScreen" class="questBox">
+        <h3 id="startMessage">Click to start the Javascript Quiz</h3>
+        <button id="startBtn">Start</button>
+      </section>
+      <section id="qBox" class="questBox">
+        <h3 id="questTxt"></h3>
         <div id="buttons">
-          <button id="answer1">Answer</button>
-          <button id="answer2">Answer</button>
-          <button id="answer3">Answer</button>
-          <button id="answer4">Answer</button>
+          <button id="answer1"></button>
+          <button id="answer2"></button>
+          <button id="answer3"></button>
+          <button id="answer4"></button>
         </div>
       </section>
     </main>
-    <footer>High Scores</footer>
+    <!-- <footer>High Scores</footer> -->
     <script src="./assets/js/script.js"></script>
   </body>
 </html>

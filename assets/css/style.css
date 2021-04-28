@@ -44,10 +44,11 @@ footer {
   justify-content: center;
   font-size: 1.5rem;
 }
-#questBox {
+.questBox {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   margin-top: 5%;
   border: 0.25rem solid peru;
   border-radius: 0.5rem;
@@ -59,4 +60,22 @@ footer {
 
 #button {
   width: fit-content;
+}
+
+/* #startScreen {
+} */
+#startMessage {
+  margin-top: 7%;
+  font-size: 2rem;
+}
+#startBtn {
+  margin-bottom: 3rem;
+  width: 10rem;
+  height: 5rem;
+  background-color: orange;
+  border-radius: 0.5rem;
+}
+
+#qBox {
+  display: none;
 }
